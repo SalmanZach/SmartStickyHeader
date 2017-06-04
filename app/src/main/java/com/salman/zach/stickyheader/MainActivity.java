@@ -69,13 +69,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.image_three).setOnClickListener(this);
         findViewById(R.id.image_four).setOnClickListener(this);
         findViewById(R.id.image_five).setOnClickListener(this);
-        if (true) {
-
-        } else {
-
-        }
-
-
     }
 
 
