@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.salman.zach.stickyheader.MainActivity">
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/scroller"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:src="@drawable/image1"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image2"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image3"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image4"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image5"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image1"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image2"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image3"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image4"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image5"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:background="@drawable/item_bg"
+            android:layout_margin="20dp"
+            android:src="@drawable/image1"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/header_layout"/>
+</FrameLayout>
+
+</RelativeLayout>

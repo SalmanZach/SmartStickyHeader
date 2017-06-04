@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="470dp"
+    android:id="@+id/header_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/header_bg"/>
+
+<View
+    android:id="@+id/foreground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0"
+    android:background="@color/colorPrimaryDark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+
+    <ImageView
+        android:id="@+id/image_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/ic_superhero"
+        android:layout_toLeftOf="@+id/image_two"
+        android:background="@drawable/bubble_bg"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:id="@+id/image_two"
+        app:srcCompat="@drawable/ic_ninja"
+        android:padding="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_toLeftOf="@+id/image_three"        android:layout_alignParentBottom="true"
+        android:background="@drawable/bubble_bg"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:srcCompat="@drawable/ic_captain_america"
+        android:id="@+id/image_three"
+        android:padding="7dp"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bubble_bg"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:id="@+id/image_four"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:padding="8dp"
+        app:srcCompat="@drawable/ic_ironman"
+        android:layout_toRightOf="@+id/image_three"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bubble_bg"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:id="@+id/image_five"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/ic_hulk"
+        android:padding="8dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/image_four"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bubble_bg"/>
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>
