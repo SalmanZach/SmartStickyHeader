@@ -52,10 +52,13 @@ Make A SmartStickyAnimator By Using Default one.
 then make a Builder and stick to a scroller(ScollView, RecyclerView), add Header View and finally animator.
                            
                 SmartStickyBuilder
-                // scorller can be a ScrollView or RecyclerView                
+                // scorller can be a ScrollView or RecyclerView
+                
                 .stickTo(scroller)
                 .setHeader(headerLayout)
+                
                 //here you can add touch on header 
+                
                 .setHeaderTouchListener
                 .minHeightHeader(getResources().getDimensionPixelSize(R.dimen.header_height))
                 .animator(animator)
