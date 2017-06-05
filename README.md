@@ -5,6 +5,9 @@
 
 A Custom Header View With Multiple Items to make selection from categories.
 
+
+![smartstickyheader](https://cloud.githubusercontent.com/assets/11782272/26771770/d4419b06-49de-11e7-9733-442280175c7c.gif)
+
 #### Android API 15+
 #### Stick With ScrollView 
 #### Stick With RecyclerView
