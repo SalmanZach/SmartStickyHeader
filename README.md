@@ -5,7 +5,7 @@
 
 A Custom Header View With Multiple Items to make selection from categories.
 
-### Android API 15+
-### Stick With ScrollView 
-### Stick With RecyclerView
+#### Android API 15+
+#### Stick With ScrollView 
+#### Stick With RecyclerView
 
